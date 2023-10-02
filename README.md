@@ -2,8 +2,12 @@
 
 Run below in terminal.
 
-Check npm
+* Check npm
+```
 npm
+```
 
-Initialize a new project to create a package.json file (descriptive file for the project)
+* Initialize a new project to create a package.json file (descriptive file for the project)
+```
 npm init -y
+```
