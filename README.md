@@ -69,8 +69,33 @@ npm uninstall mocha -g
 
 # Webpack
 
-*Step 1:
+* Step 1:
 Download webpack and webpack command line interface (cli)
 ```
 npm install webpack webpack-cli --save-dev
+```
+
+* Step 2:
+Create dist and src folders under NPM-Webpack
+
+* Step 3:
+Create a index.js file under src folder
+
+* Step 4:
+Build bundle and then create main.js file under dist folder
+```
+npm run build
+```
+
+* Step 5:
+Create a index.html file which contains codes from main.js under dist folder
+
+* Step 6:
+Check website by opening index.html file
+
+# Update code
+* Step 1
+Create bundle with the code in index.js under src folder to update main.js file under dist folder
+```
+npm run build
 ```
