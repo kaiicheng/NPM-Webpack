@@ -1,8 +1,14 @@
 # NPM-Webpack
 
 This is a project to learn NPM and Webpack.
+
 NPM is a management tool.
+
 Webpack has core function (Module Bundler) and elaborate function (Module Builder).
+
+Why webpack?
+* Core function: support modular (export/import)
+* Elaborate function: support the compiling and loarding of special syntax (React JSX)
 
 Run below commands in terminal.
 
@@ -61,3 +67,10 @@ npm install mocha -g
 npm uninstall mocha -g
 ```
 
+# Webpack
+
+*Step 1:
+Download webpack and webpack command line interface (cli)
+```
+npm install webpack webpack-cli --save-dev
+```
